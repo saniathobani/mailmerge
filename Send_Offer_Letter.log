@@ -1,0 +1,147 @@
+INFO:__main__:Staring the script
+DEBUG:__main__:File Name: test1.csv
+ERROR:__main__:_details:
+{'Sirius black': 'whySoSerious@gmail.com', 'Dumbledore': 'dumb.dore@yahoo.com ', 'dobby': 'need.a.sock@yahoo.com', 'sania': 'saniathobani@yahoo.co.in'}
+DEBUG:__main__:main() - details: {'Sirius black': 'whySoSerious@gmail.com', 'Dumbledore': 'dumb.dore@yahoo.com ', 'dobby': 'need.a.sock@yahoo.com', 'sania': 'saniathobani@yahoo.co.in'}
+DEBUG:__main__:Name: Sirius black
+DEBUG:__main__:Address: whySoSerious@gmail.com
+DEBUG:__main__:Offer Letter Template Name: tempLate.docx
+DEBUG:__main__:New offer letter name: Sirius_black_Offer_Letter.docx
+DEBUG:__main__:input file name: C:\Users\user\Desktop\mailmerge\Sirius_black_Offer_Letter.docx
+DEBUG:__main__:output file name: C:\Users\user\Desktop\mailmerge\Sirius_black_Offer_Letter.pdf
+DEBUG:comtypes.client:Word.Application -> {000209FF-0000-0000-C000-000000000046}
+DEBUG:comtypes.client:CoCreateInstance({000209FF-0000-0000-C000-000000000046}, clsctx=None, interface=None)
+DEBUG:comtypes.client:GetBestInterface(<POINTER(IUnknown) ptr=0x6eb8afc at 7dfc670>)
+DEBUG:comtypes.client:Does implement IProvideClassInfo
+DEBUG:comtypes.client:Default interface is {00020970-0000-0000-C000-000000000046}
+DEBUG:comtypes:Release <POINTER(IUnknown) ptr=0x818642c at 7dfc9e0>
+DEBUG:comtypes.client._generate:GetModule(TLIBATTR(GUID={00020905-0000-0000-C000-000000000046}, Version=8.5, LCID=0, FLags=0x8))
+DEBUG:comtypes.client:Implements default interface from typeinfo <class 'comtypes.gen._00020905_0000_0000_C000_000000000046_0_8_5._Application'>
+DEBUG:comtypes.client:Final result is <POINTER(_Application) ptr=0x818642c at 8db71c0>
+DEBUG:comtypes:Release <POINTER(IProvideClassInfo) ptr=0x81865dc at 7dfc760>
+DEBUG:comtypes:Release <POINTER(ITypeInfo) ptr=0x8186594 at 7dfc7b0>
+DEBUG:comtypes:Release <POINTER(ITypeInfo) ptr=0x8186354 at 7dfc8a0>
+DEBUG:comtypes:Release <POINTER(ITypeLib) ptr=0x818630c at 7dfc9e0>
+DEBUG:comtypes:Release <POINTER(IUnknown) ptr=0x6eb8afc at 7dfc670>
+DEBUG:comtypes.client:wrap_outparam(<POINTER(Documents) ptr=0x8185db4 at 7dfc670>)
+DEBUG:comtypes:Release <POINTER(_Document) ptr=0x8186f24 at 7dfc9e0>
+DEBUG:comtypes:Release <POINTER(Documents) ptr=0x8185db4 at 7dfc670>
+DEBUG:comtypes:Release <POINTER(_Application) ptr=0x818642c at 8db71c0>
+DEBUG:comtypes:Release <POINTER(_Document) ptr=0x8186f24 at 7dfc940>
+DEBUG:__main__:self.__to_name: Sirius black
+DEBUG:__main__:self.__to_email: whySoSerious@gmail.com
+DEBUG:__main__:self.__attach_file_name: Sirius_black_Offer_Letter.pdf
+DEBUG:__main__:self.__from_email: nazmathobani@gmail.com
+DEBUG:__main__:self.__subject: Congrats Sirius black - Offer Letter!!
+DEBUG:__main__:self.__body:  "Hi Sirius black,
+
+"
+                "
+                ""
+DEBUG:__main__:Name: Dumbledore
+DEBUG:__main__:Address: dumb.dore@yahoo.com 
+DEBUG:__main__:Offer Letter Template Name: tempLate.docx
+DEBUG:__main__:New offer letter name: Dumbledore_Offer_Letter.docx
+DEBUG:__main__:input file name: C:\Users\user\Desktop\mailmerge\Dumbledore_Offer_Letter.docx
+DEBUG:__main__:output file name: C:\Users\user\Desktop\mailmerge\Dumbledore_Offer_Letter.pdf
+DEBUG:comtypes.client:Word.Application -> {000209FF-0000-0000-C000-000000000046}
+DEBUG:comtypes.client:CoCreateInstance({000209FF-0000-0000-C000-000000000046}, clsctx=None, interface=None)
+DEBUG:comtypes.client:GetBestInterface(<POINTER(IUnknown) ptr=0x6eb8afc at 7dfc710>)
+DEBUG:comtypes.client:Does implement IProvideClassInfo
+DEBUG:comtypes.client:Default interface is {00020970-0000-0000-C000-000000000046}
+DEBUG:comtypes:Release <POINTER(IUnknown) ptr=0x83652fc at 8db7f80>
+DEBUG:comtypes.client._generate:GetModule(TLIBATTR(GUID={00020905-0000-0000-C000-000000000046}, Version=8.5, LCID=0, FLags=0x8))
+DEBUG:comtypes.client:Implements default interface from typeinfo <class 'comtypes.gen._00020905_0000_0000_C000_000000000046_0_8_5._Application'>
+DEBUG:comtypes.client:Final result is <POINTER(_Application) ptr=0x83652fc at 8db7ad0>
+DEBUG:comtypes:Release <POINTER(IProvideClassInfo) ptr=0x836577c at 7dfc800>
+DEBUG:comtypes:Release <POINTER(ITypeInfo) ptr=0x836592c at 7dfc850>
+DEBUG:comtypes:Release <POINTER(ITypeInfo) ptr=0x8365224 at 8db71c0>
+DEBUG:comtypes:Release <POINTER(ITypeLib) ptr=0x8365974 at 8db7f80>
+DEBUG:comtypes:Release <POINTER(IUnknown) ptr=0x6eb8afc at 7dfc710>
+DEBUG:comtypes.client:wrap_outparam(<POINTER(Documents) ptr=0x836589c at 8db7f80>)
+DEBUG:comtypes:Release <POINTER(_Document) ptr=0x8365d1c at 8db74e0>
+DEBUG:comtypes:Release <POINTER(Documents) ptr=0x836589c at 8db7f80>
+DEBUG:comtypes:Release <POINTER(_Application) ptr=0x83652fc at 8db7ad0>
+DEBUG:comtypes:Release <POINTER(_Document) ptr=0x8365d1c at 8db71c0>
+DEBUG:__main__:self.__to_name: Dumbledore
+DEBUG:__main__:self.__to_email: dumb.dore@yahoo.com 
+DEBUG:__main__:self.__attach_file_name: Dumbledore_Offer_Letter.pdf
+DEBUG:__main__:self.__from_email: nazmathobani@gmail.com
+DEBUG:__main__:self.__subject: Congrats Dumbledore - Offer Letter!!
+DEBUG:__main__:self.__body:  "Hi Dumbledore,
+
+"
+                "
+                ""
+DEBUG:__main__:Name: dobby
+DEBUG:__main__:Address: need.a.sock@yahoo.com
+DEBUG:__main__:Offer Letter Template Name: tempLate.docx
+DEBUG:__main__:New offer letter name: dobby_Offer_Letter.docx
+DEBUG:__main__:input file name: C:\Users\user\Desktop\mailmerge\dobby_Offer_Letter.docx
+DEBUG:__main__:output file name: C:\Users\user\Desktop\mailmerge\dobby_Offer_Letter.pdf
+DEBUG:comtypes.client:Word.Application -> {000209FF-0000-0000-C000-000000000046}
+DEBUG:comtypes.client:CoCreateInstance({000209FF-0000-0000-C000-000000000046}, clsctx=None, interface=None)
+DEBUG:comtypes.client:GetBestInterface(<POINTER(IUnknown) ptr=0x6eb8afc at 8db7f80>)
+DEBUG:comtypes.client:Does implement IProvideClassInfo
+DEBUG:comtypes.client:Default interface is {00020970-0000-0000-C000-000000000046}
+DEBUG:comtypes:Release <POINTER(IUnknown) ptr=0x860c3e4 at 8df6ee0>
+DEBUG:comtypes.client._generate:GetModule(TLIBATTR(GUID={00020905-0000-0000-C000-000000000046}, Version=8.5, LCID=0, FLags=0x8))
+DEBUG:comtypes.client:Implements default interface from typeinfo <class 'comtypes.gen._00020905_0000_0000_C000_000000000046_0_8_5._Application'>
+DEBUG:comtypes.client:Final result is <POINTER(_Application) ptr=0x860c3e4 at 8df6b20>
+DEBUG:comtypes:Release <POINTER(IProvideClassInfo) ptr=0x860c084 at 8db74e0>
+DEBUG:comtypes:Release <POINTER(ITypeInfo) ptr=0x860bf1c at 7dfc7b0>
+DEBUG:comtypes:Release <POINTER(ITypeInfo) ptr=0x860c594 at 7dfc800>
+DEBUG:comtypes:Release <POINTER(ITypeLib) ptr=0x860c30c at 8df6ee0>
+DEBUG:comtypes:Release <POINTER(IUnknown) ptr=0x6eb8afc at 8db7f80>
+DEBUG:comtypes.client:wrap_outparam(<POINTER(Documents) ptr=0x860c27c at 8df6ee0>)
+DEBUG:comtypes:Release <POINTER(_Document) ptr=0x860cce4 at 8df63f0>
+DEBUG:comtypes:Release <POINTER(Documents) ptr=0x860c27c at 8df6ee0>
+DEBUG:comtypes:Release <POINTER(_Application) ptr=0x860c3e4 at 8df6b20>
+DEBUG:comtypes:Release <POINTER(_Document) ptr=0x860cce4 at 7dfc800>
+DEBUG:__main__:self.__to_name: dobby
+DEBUG:__main__:self.__to_email: need.a.sock@yahoo.com
+DEBUG:__main__:self.__attach_file_name: dobby_Offer_Letter.pdf
+DEBUG:__main__:self.__from_email: nazmathobani@gmail.com
+DEBUG:__main__:self.__subject: Congrats dobby - Offer Letter!!
+DEBUG:__main__:self.__body:  "Hi dobby,
+
+"
+                "
+                ""
+DEBUG:__main__:Name: sania
+DEBUG:__main__:Address: saniathobani@yahoo.co.in
+DEBUG:__main__:Offer Letter Template Name: tempLate.docx
+DEBUG:__main__:New offer letter name: sania_Offer_Letter.docx
+DEBUG:__main__:input file name: C:\Users\user\Desktop\mailmerge\sania_Offer_Letter.docx
+DEBUG:__main__:output file name: C:\Users\user\Desktop\mailmerge\sania_Offer_Letter.pdf
+DEBUG:comtypes.client:Word.Application -> {000209FF-0000-0000-C000-000000000046}
+DEBUG:comtypes.client:CoCreateInstance({000209FF-0000-0000-C000-000000000046}, clsctx=None, interface=None)
+DEBUG:comtypes.client:GetBestInterface(<POINTER(IUnknown) ptr=0x6eb8354 at 8df63f0>)
+DEBUG:comtypes.client:Does implement IProvideClassInfo
+DEBUG:comtypes.client:Default interface is {00020970-0000-0000-C000-000000000046}
+DEBUG:comtypes:Release <POINTER(IUnknown) ptr=0x9f6b5b4 at 8ec2710>
+DEBUG:comtypes.client._generate:GetModule(TLIBATTR(GUID={00020905-0000-0000-C000-000000000046}, Version=8.5, LCID=0, FLags=0x8))
+DEBUG:comtypes.client:Implements default interface from typeinfo <class 'comtypes.gen._00020905_0000_0000_C000_000000000046_0_8_5._Application'>
+DEBUG:comtypes.client:Final result is <POINTER(_Application) ptr=0x9f6b5b4 at 8ec2300>
+DEBUG:comtypes:Release <POINTER(IProvideClassInfo) ptr=0x9f6b134 at 7dfc710>
+DEBUG:comtypes:Release <POINTER(ITypeInfo) ptr=0x9f6acfc at 7dfc800>
+DEBUG:comtypes:Release <POINTER(ITypeInfo) ptr=0x9f6b524 at 8db7f80>
+DEBUG:comtypes:Release <POINTER(ITypeLib) ptr=0x9f6ba7c at 8ec2710>
+DEBUG:comtypes:Release <POINTER(IUnknown) ptr=0x6eb8354 at 8df63f0>
+DEBUG:comtypes.client:wrap_outparam(<POINTER(Documents) ptr=0x9f6bb9c at 8df63f0>)
+DEBUG:comtypes:Release <POINTER(_Document) ptr=0x9f6ba34 at 8db74e0>
+DEBUG:comtypes:Release <POINTER(Documents) ptr=0x9f6bb9c at 8df63f0>
+DEBUG:comtypes:Release <POINTER(_Application) ptr=0x9f6b5b4 at 8ec2300>
+DEBUG:comtypes:Release <POINTER(_Document) ptr=0x9f6ba34 at 8db71c0>
+DEBUG:__main__:self.__to_name: sania
+DEBUG:__main__:self.__to_email: saniathobani@yahoo.co.in
+DEBUG:__main__:self.__attach_file_name: sania_Offer_Letter.pdf
+DEBUG:__main__:self.__from_email: nazmathobani@gmail.com
+DEBUG:__main__:self.__subject: Congrats sania - Offer Letter!!
+DEBUG:__main__:self.__body:  "Hi sania,
+
+"
+                "
+                ""
+DEBUG:comtypes:Calling CoUnititialize()
+DEBUG:comtypes:CoUnititialize() done.
